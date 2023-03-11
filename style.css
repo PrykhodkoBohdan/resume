@@ -317,9 +317,9 @@
 .photo {
   display: block;
   margin-right: auto;
-margin-left: 10px;
   max-width: 280px;
   max-height: 300px;
+  margin-left: 10px;
 
   border-radius: 10px;
 
