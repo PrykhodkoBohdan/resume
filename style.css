@@ -419,6 +419,9 @@ text-decoration-line: none;
 }
 /* для маленьких экранов, ширина меньше 480px */
 @media (max-width: 480px) {
+	.about{
+		display: none;
+	}
 	.main{
 		display: flex;
 		flex-direction: column-reverse;
@@ -462,10 +465,18 @@ text-decoration-line: none;
 	
 	/* для средних экранов, ширина между 480px и 768px */
 	@media (min-width: 481px) and (max-width: 768px) {
+		.about{
+			display: none;
+		}
+		.main{
+			display: flex;
+			flex-direction: column-reverse;
+		}
 	.sidebar {
 	width: 80%;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	height: auto;
 	}
 	.photo {
 	height: auto;
@@ -496,9 +507,12 @@ text-decoration-line: none;
 	
 	/* для больших экранов, ширина больше 768px */
 	@media (min-width: 769px) {
+		.about-mini{
+			display: none;
+		}
 	.sidebar {
 	width: 370px;
-	height: 1620px;
+	height: auto;
 	margin-top: 0;
 	margin-bottom: 0;
 	}
