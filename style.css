@@ -264,6 +264,7 @@
 	}
 /* education style  */
 .education {
+	list-style: none;
     padding: 0;
     margin: 0;
     justify-content: space-around;
@@ -316,7 +317,7 @@
 .photo {
   display: block;
   margin-right: auto;
-  margin-left: auto;
+margin-left: 10px;
   max-width: 280px;
   max-height: 300px;
 
