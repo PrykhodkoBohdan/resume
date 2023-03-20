@@ -29,7 +29,6 @@
 	background-color: grey;
 	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 	padding: 0px 20px;
-	height: 1290px;
   }
   
   /* изменяем отступы на меньшее значение для мобильных устройств */
@@ -305,16 +304,12 @@
 	}
 
 /* sidebar style  */
-.bacground {
-  background-color: rgb(143, 143, 151);
-}
 .sidebar {
 
 background-color: rgb(143, 143, 151);
   padding: 20px;
-  padding-top: 50px;
   width: 370px;
-  height: 100%
+
 
 }
 
@@ -398,12 +393,13 @@ text-decoration-line: none;
 }
 .soft-skills {
   margin-left: 40px;
-  margin-bottom: 45px;
+  margin-bottom: 0;
 }
 .soft-skills-list {
   color: var(--bacground);
   padding: 0;
   margin-left: 20px;
+  
 }
 .tech-skills-text {
   color: var(--bacground);
@@ -516,8 +512,7 @@ text-decoration-line: none;
 		.about-mini{
 			display: none;
 		}
-	.sidebar {
-	height:90px ;	
+	.sidebar {	
 	width: 370px;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -536,7 +531,9 @@ text-decoration-line: none;
 	}
 	.soft-skills {
 	margin-left: 40px;
-	margin-bottom: 45px;
+	}
+	.soft-skills:last-child {
+		margin-bottom: 0;
 	}
 	.sidebar-title {
 	font-size: 22px;
