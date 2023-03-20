@@ -10,8 +10,7 @@
 
 	display: flex;
 	flex-direction: row-reverse;
-	max-width: 1440px; 
-	max-height: 1345px;
+	width: 100%;
 	margin: 0 auto;
   }
   
@@ -28,7 +27,7 @@
   .main_content {
 	background-color: grey;
 	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-	padding: 20px;
+	padding: 0px 20px;
   }
   
   /* изменяем отступы на меньшее значение для мобильных устройств */
@@ -310,7 +309,7 @@
 .sidebar {
 
 
-
+background-color: rgb(143, 143, 151)
   padding: 20px;
   padding-top: 50px;
   width: 370px;
