@@ -12,6 +12,7 @@
 	flex-direction: row-reverse;
 	width: 100%;
 	margin: 0 auto;
+	height: 100%;
   }
   
   /* main  */
@@ -28,6 +29,7 @@
 	background-color: grey;
 	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 	padding: 0px 20px;
+	height: auto;
   }
   
   /* изменяем отступы на меньшее значение для мобильных устройств */
@@ -308,12 +310,11 @@
 }
 .sidebar {
 
-
-background-color: rgb(143, 143, 151)
+background-color: rgb(143, 143, 151);
   padding: 20px;
   padding-top: 50px;
   width: 370px;
-  height: 1620px;
+  height: 100%
 
 }
 
