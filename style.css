@@ -12,7 +12,6 @@
 	flex-direction: row-reverse;
 	width: 100%;
 	margin: 0 auto;
-	height: 100%;
   }
   
   /* main  */
@@ -58,6 +57,7 @@
 	line-height: 55px;
 	color: var(--text-color);
 	margin-bottom: 18px;
+	margin-top: 0;
   }
   
   .name-accent {
@@ -234,6 +234,9 @@
   color: black;
   margin-bottom: 10px;
 }
+.period:last-child{
+	margin-bottom: 0;
+}
 .line {
   font-style: normal;
   font-weight: 400;
@@ -308,7 +311,7 @@
 
 background-color: rgb(143, 143, 151);
   padding: 20px;
-  width: 370px;
+
 
 
 }
@@ -513,7 +516,6 @@ text-decoration-line: none;
 			display: none;
 		}
 	.sidebar {	
-	width: 370px;
 	margin-top: 0;
 	margin-bottom: 0;
 	}
